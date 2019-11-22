@@ -12,12 +12,16 @@ body {
   
   /* general */
   
-  /* .container {
+  .container {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
     clear: both;
-  } */
+    border: 0.5px solid #cccccc;
+    padding: 30px;
+    position: relative;
+    top: 50px;
+  }
   
   h1,
   h2,
@@ -62,9 +66,17 @@ body {
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
+    position: relative;
+    left: 16%;
   }
   .navbar-nav > li >a {
     color: #7E7E7E;
+    position: relative;
+    right: 20%;
+  }
+
+  .navbar {
+    border-bottom: 0.5px solid #cccccc;
   }
 
   /* footer */
@@ -148,7 +160,13 @@ body {
   }
   
   /* contact page */
-  
+
+  #sub {
+    position: relative;
+    bottom: 8px;
+    left: 40px;
+  }
+
   #contact-form ul {
     margin-bottom: 20px;
   }
