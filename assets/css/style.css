@@ -63,7 +63,7 @@ body {
     text-decoration: none;
     background: #4aaaa5;
   }
-  .navbar-nav > li >a{
+  .navbar-nav > li >a {
     color: #7E7E7E;
   }
 
@@ -90,10 +90,10 @@ body {
   
   /* main */
   
-  #main-container {
+  /* #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
-  }
+  } */
   
   .main-section {
     float: left;
@@ -141,11 +141,10 @@ body {
   }
   
   .auth-image {
-    float: left;
-    width: 200px;
+    width: 225px;
     height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
+    margin: 43px 0px 5px 63px;
+    padding: 5px;
   }
   
   /* contact page */
